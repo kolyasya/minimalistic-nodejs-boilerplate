@@ -1,0 +1,16 @@
+{
+  "name": "minimalistic-nodejs-boilerplate",
+  "version": "0.0.1",
+  "description": "Node.js + Nodemon + Babel",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  }
+}
